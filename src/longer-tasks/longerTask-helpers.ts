@@ -8,7 +8,6 @@ const pool = new Pool({
 });
 
 export function createLongerTasks(time: number) {
-  console.log(time);
   pool.query(
     "INSERT INTO time_estimation (time) VALUES ($1) RETURNING *",
     [time],
