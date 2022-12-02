@@ -4,8 +4,11 @@ If the estimation is under 500 the server returns the time otherwise it return -
 
 Installation:
 1- clone this project
+
 2- run: `npm install`
+
 3- start docker and run: `docker-compose up -d`
+
 4- run: `npm run dev`
 
 You should have the database thunkable and with the table estimation_time there.
