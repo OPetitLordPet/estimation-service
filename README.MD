@@ -9,7 +9,16 @@ Installation:
 
 3- start docker and run: `docker-compose up -d`
 
-4- run: `npm run dev`
+4- Set the correct variable in the .env, section below
+
+5- run: `npm run dev`
+
+.ENV:
+You should set the proper credential in the .env file
+suggested port:8000
+USERNAME= username of the database
+database name: "thunkable"
+db port: 5432
 
 You should have the database thunkable and with the table estimation_time there.
 
